@@ -1,21 +1,47 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f0f0f0;
+    background-color: #0f0f0f;
 }
 
 h1 {
-    color: #333;
+    color: white;
+}
+
+h3 {
+    color: white;
+    margin-top: 10px;
 }
 
 p {
-    font-size: 18px;
-    color: #666;
+    font-size: 16px;
+    color: #ccc;   
 }
 
 hr {
-    max-width: 1000px; 
+    max-width: 980px; 
 }
+
+a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+}
+
+.badge {
+    padding: 0.25em 0.4em;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 14px;
+}
+.badge-blue { background-color: #1e2a3a; color: #4A90D9; border: 1px solid #4A90D9; }
+.badge-green { background-color: #1a2e1a; color: #4CAF50; border: 1px solid #4CAF50; }
+.badge-orange { background-color: #2e1e0e; color: #E07B39; border: 1px solid #E07B39; }
+.badge-purple { background-color: #1e1a2e; color: #7B68EE; border: 1px solid #7B68EE; }
+.badge-teal { background-color: #0e2220; color: #2A9D8F; border: 1px solid #2A9D8F; }
+.badge-red { background-color: #2e0e0e; color: #E63946; border: 1px solid #E63946; }
+.badge-gray { background-color: #1a1a1a; color: #9CA3AF; border: 1px solid #6B7280; }
 
 .flex-container {
     display: flex;
@@ -41,18 +67,18 @@ hr {
 
 
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     max-width: 200px;
     border-radius: 8px;
     overflow: hidden;
     font-family: sans-serif;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 .card-img {
@@ -68,13 +94,13 @@ hr {
 .card-title {
     margin: 0 0 8px 0;
     font-size: 1rem;
-    color: #333333;
+    color: #e0e0e0;
 }
 
 .card-text {
     margin: 0 0 16px 0;
     font-size: 0.8rem;
-    color: #666666;
+    color: #9CA3AF;
     line-height: 1.4;
 }
 
